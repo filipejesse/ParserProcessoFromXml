@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BPQL>
+  <header specialResourceUse="0" resourceUse="0">
+    <date-time>29/11/2019 06:53:57</date-time>
+    <description>Consulta Processual Primeiro Grau - TJPA</description>
+    <execution-time>66</execution-time>
+    <query database="JURISTEK" table="PUSH">SELECT FROM 'JURISTEK'.'PUSH'</query>
+  </header>
+  <body>
+    <processo filter="0005249-08.2019.8.14.0031" id="14d543cb568912bbe1492593eab8fdb9" pushguid="ede9720dd8f7029d4d34071980991aca" databaseUrl="http://www.tjpa.jus.br/PortalExterno/" databaseName="TJPA" databaseDescription="TJPA - Tribunal de Justiça do Estado do Pará" tableName="ConsultaProcessualPrimeiroGrau" tableUrl="https://consultas.tjpa.jus.br/consultaprocessoportal/consulta/principal" tableType="processo" tableUpload="false" tableDescription="Consulta Processual de Primeiro Grau (Número Único CNJ)">
+      <numero_processo>0005249-08.2019.8.14.0031</numero_processo>
+      <instancia>1</instancia>
+      <comarca>MOJU</comarca>
+      <situacao>EM ANDAMENTO</situacao>
+      <area>CRIMINAL</area>
+      <distribuicao format="d/m/Y">24/07/2019</distribuicao>
+      <classe>Ação Penal - Procedimento Ordinário</classe>
+      <acao>Crimes contra o Meio Ambiente e o Patrimônio Genético</acao>
+      <valor_causa unidade_monetaria="R$">0,00</valor_causa>
+      <observacao>Gabinete: GABINETE DA VARA UNICA DE MOJU&#13;
+Secretaria: SECRETARIA DA VARA UNICA DE MOJU&#13;
+Magistrado: ARIELSON RIBEIRO LIMA&#13;
+Competência: JUIZO SINGULAR&#13;
+Número do Inquérito Policial: 0005987502019&#13;
+Segredo de Justiça: NÃO&#13;
+Volumes: 0&#13;
+Número de Páginas: 0&#13;
+Prioridade: NÃO&#13;
+Gratuidade: NÃO</observacao>
+      <andamentos>
+        <andamento>
+          <descricao>A SECRETARIA DE ORIGEM</descricao>
+          <data hash="2131f06bad46b873b99afe58889c376f" format="d/m/Y">07/08/2019</data>
+        </andamento>
+        <andamento>
+          <descricao>SUSPENSÃO DO PROCESSO</descricao>
+          <data hash="15960c4cfc29fda0bd90ea55f2b12343" format="d/m/Y">07/08/2019</data>
+        </andamento>
+        <andamento>
+          <descricao>DESPACHO</descricao>
+          <data hash="b5db633106e9a82219c4a82d2d9cb5fd" format="d/m/Y">01/08/2019</data>
+        </andamento>
+        <andamento>
+          <descricao>AO GABINETE DO MAGISTRADO</descricao>
+          <data hash="b3d80899edc228b17bbe70689f54c4c8" format="d/m/Y">30/07/2019</data>
+        </andamento>
+        <andamento>
+          <descricao>DISTRIBUIÇÃO DE PROCESSO</descricao>
+          <data hash="b862045f8493d341f0958ce339687fe5" format="d/m/Y">24/07/2019</data>
+        </andamento>
+        <andamento>
+          <descricao>REMESSA</descricao>
+          <data hash="0eaeb0e33d632dc12ed590b2d71b4118" format="d/m/Y">24/07/2019</data>
+        </andamento>
+      </andamentos>
+      <partes>
+        <parte tipo="Vítima">A. C. O. E</parte>
+        <parte tipo="Denunciado">JOSE EVERALDO DE OLIVEIRA</parte>
+        <parte tipo="Denunciado">MADEIREIRA J E Y LTDA</parte>
+        <parte tipo="Denunciado">YTALO RODRIGUES OLIVEIRA</parte>
+      </partes>
+      <tags>
+        <tag tipo="andamentos">ativo</tag>
+      </tags>
+    </processo>
+  </body>
+</BPQL>
