@@ -10,7 +10,7 @@ namespace ParserProcessoFromXml.Tests
         [TestMethod()]
         public void ParserDataTest()
         {
-            var xml = File.ReadAllText(@"..\..\..\..\exemples\xmlBipbopProcess.xml");
+            var xml = File.ReadAllText(@"..\..\..\..\examples\xmlBipbopProcess.xml");
             var parser = new ParserBipBopBase(xml);
             var ProcessList = parser.ParserData();
 
